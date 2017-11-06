@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" title="HomeView" xmlns:layout="org.osmf.layout.*"
+		
+		>
+	
+	<s:layout>
+		<s:VerticalLayout />
+	</s:layout>
+	
+	<s:HGroup width="100%" height="100%">
+	<s:BitmapImage width="150" height="150" source="@Embed(source='assets/logo320.png')"   />
+	</s:HGroup>
+	<s:Rect width="100" height="100">
+		<s:fill><s:SolidColor color="0xFF0000" /></s:fill>
+	</s:Rect>
+</s:View>
